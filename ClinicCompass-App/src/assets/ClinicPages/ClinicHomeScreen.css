@@ -1,0 +1,40 @@
+.screen-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 550px;
+    background-image: url('../Background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.booking-section {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.booking-icon {
+    font-size: 2em;
+    color: #333;
+    margin-right: 10px;
+}
+
+.booking-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking-button:hover {
+    background-color: #0056b3;
+}
